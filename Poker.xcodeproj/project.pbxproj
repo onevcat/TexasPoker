@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D12C667D14876382002DC1E2 /* VVCard.m in Sources */ = {isa = PBXBuildFile; fileRef = D12C667C14876382002DC1E2 /* VVCard.m */; };
+		D153F963148250E30091A485 /* VVPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D153F962148250E30091A485 /* VVPlayer.m */; };
+		D19185F014888F1400279AFE /* VVPlayerFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = D19185EF14888F1400279AFE /* VVPlayerFinder.m */; };
+		D19185F31488A72200279AFE /* VVPlayerSelf.m in Sources */ = {isa = PBXBuildFile; fileRef = D19185F21488A72200279AFE /* VVPlayerSelf.m */; };
+		D19185F61488A9E800279AFE /* VVPlayerAchiev.m in Sources */ = {isa = PBXBuildFile; fileRef = D19185F51488A9E800279AFE /* VVPlayerAchiev.m */; };
+		D19185F91488ABA900279AFE /* VVPlayerStat.m in Sources */ = {isa = PBXBuildFile; fileRef = D19185F81488ABA900279AFE /* VVPlayerStat.m */; };
+		D19185FC1488B04000279AFE /* VVPlayerProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = D19185FB1488B04000279AFE /* VVPlayerProperty.m */; };
+		D19185FF1488B11F00279AFE /* VVCardGame.m in Sources */ = {isa = PBXBuildFile; fileRef = D19185FE1488B11F00279AFE /* VVCardGame.m */; };
+		D19186021488B2B900279AFE /* VVOnTablePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D19186011488B2B900279AFE /* VVOnTablePlayer.m */; };
+		D1A2DE0F148791960026A552 /* VVCardCombination.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A2DE0E148791960026A552 /* VVCardCombination.m */; };
+		D1F9C2C7147F998500FE267B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F9C2C6147F998500FE267B /* UIKit.framework */; };
+		D1F9C2C9147F998500FE267B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F9C2C8147F998500FE267B /* Foundation.framework */; };
+		D1F9C2CB147F998500FE267B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F9C2CA147F998500FE267B /* CoreGraphics.framework */; };
+		D1F9C2D1147F998500FE267B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1F9C2CF147F998500FE267B /* InfoPlist.strings */; };
+		D1F9C2D3147F998500FE267B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F9C2D2147F998500FE267B /* main.m */; };
+		D1F9C2D7147F998500FE267B /* VVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F9C2D6147F998500FE267B /* VVAppDelegate.m */; };
+		D1F9C2DF147F9AE500FE267B /* VVGameTable.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F9C2DE147F9AE500FE267B /* VVGameTable.m */; };
+		D1F9C2E8147F9ED000FE267B /* VVGameTableFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F9C2E7147F9ED000FE267B /* VVGameTableFinder.m */; };
+		D1F9C2F4147FAAE600FE267B /* VVNetRequestor.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F9C2F3147FAAE600FE267B /* VVNetRequestor.m */; };
+		D1F9C2F7147FAAFB00FE267B /* VVNetReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F9C2F6147FAAFB00FE267B /* VVNetReceiver.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D12C667B14876382002DC1E2 /* VVCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VVCard.h; path = Card/VVCard.h; sourceTree = "<group>"; };
+		D12C667C14876382002DC1E2 /* VVCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VVCard.m; path = Card/VVCard.m; sourceTree = "<group>"; };
+		D13F5FA41481E447006414B6 /* VVGameTableFinderNetReceiverDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VVGameTableFinderNetReceiverDelegate.h; path = GameTable/VVGameTableFinderNetReceiverDelegate.h; sourceTree = "<group>"; };
+		D153F961148250E30091A485 /* VVPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VVPlayer.h; path = Player/VVPlayer.h; sourceTree = "<group>"; };
+		D153F962148250E30091A485 /* VVPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VVPlayer.m; path = Player/VVPlayer.m; sourceTree = "<group>"; };
+		D19185EC14888EA800279AFE /* VVPlayerFinderNetRequestorDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VVPlayerFinderNetRequestorDelegate.h; path = Player/VVPlayerFinderNetRequestorDelegate.h; sourceTree = "<group>"; };
+		D19185ED14888EF800279AFE /* VVPlayerFinderNetReceiverDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VVPlayerFinderNetReceiverDelegate.h; path = Player/VVPlayerFinderNetReceiverDelegate.h; sourceTree = "<group>"; };
+		D19185EE14888F1400279AFE /* VVPlayerFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VVPlayerFinder.h; path = Player/VVPlayerFinder.h; sourceTree = "<group>"; };
+		D19185EF14888F1400279AFE /* VVPlayerFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VVPlayerFinder.m; path = Player/VVPlayerFinder.m; sourceTree = "<group>"; };
+		D19185F11488A72200279AFE /* VVPlayerSelf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VVPlayerSelf.h; path = Player/VVPlayerSelf.h; sourceTree = "<group>"; };
+		D19185F21488A72200279AFE /* VVPlayerSelf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VVPlayerSelf.m; path = Player/VVPlayerSelf.m; sourceTree = "<group>"; };
+		D19185F41488A9E800279AFE /* VVPlayerAchiev.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VVPlayerAchiev.h; path = Player/VVPlayerAchiev.h; sourceTree = "<group>"; };
+		D19185F51488A9E800279AFE /* VVPlayerAchiev.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VVPlayerAchiev.m; path = Player/VVPlayerAchiev.m; sourceTree = "<group>"; };
+		D19185F71488ABA900279AFE /* VVPlayerStat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VVPlayerStat.h; path = Player/VVPlayerStat.h; sourceTree = "<group>"; };
+		D19185F81488ABA900279AFE /* VVPlayerStat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VVPlayerStat.m; path = Player/VVPlayerStat.m; sourceTree = "<group>"; };
+		D19185FA1488B04000279AFE /* VVPlayerProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VVPlayerProperty.h; path = Player/VVPlayerProperty.h; sourceTree = "<group>"; };
+		D19185FB1488B04000279AFE /* VVPlayerProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VVPlayerProperty.m; path = Player/VVPlayerProperty.m; sourceTree = "<group>"; };
+		D19185FD1488B11F00279AFE /* VVCardGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VVCardGame.h; path = CardGame/VVCardGame.h; sourceTree = "<group>"; };
+		D19185FE1488B11F00279AFE /* VVCardGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VVCardGame.m; path = CardGame/VVCardGame.m; sourceTree = "<group>"; };
+		D19186001488B2B900279AFE /* VVOnTablePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VVOnTablePlayer.h; path = CardGame/VVOnTablePlayer.h; sourceTree = "<group>"; };
+		D19186011488B2B900279AFE /* VVOnTablePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VVOnTablePlayer.m; path = CardGame/VVOnTablePlayer.m; sourceTree = "<group>"; };
+		D19186091488CA9900279AFE /* VVCardGameNetRequestorDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VVCardGameNetRequestorDelegate.h; path = CardGame/VVCardGameNetRequestorDelegate.h; sourceTree = "<group>"; };
+		D191860A1488CBC500279AFE /* VVCardGameNetReceiverDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VVCardGameNetReceiverDelegate.h; path = CardGame/VVCardGameNetReceiverDelegate.h; sourceTree = "<group>"; };
+		D1A2DE0D148791960026A552 /* VVCardCombination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VVCardCombination.h; path = Card/VVCardCombination.h; sourceTree = "<group>"; };
+		D1A2DE0E148791960026A552 /* VVCardCombination.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VVCardCombination.m; path = Card/VVCardCombination.m; sourceTree = "<group>"; };
+		D1F9C2C2147F998500FE267B /* Poker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Poker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1F9C2C6147F998500FE267B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D1F9C2C8147F998500FE267B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D1F9C2CA147F998500FE267B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D1F9C2CE147F998500FE267B /* Poker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Poker-Info.plist"; sourceTree = "<group>"; };
+		D1F9C2D0147F998500FE267B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D1F9C2D2147F998500FE267B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D1F9C2D4147F998500FE267B /* Poker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Poker-Prefix.pch"; sourceTree = "<group>"; };
+		D1F9C2D5147F998500FE267B /* VVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VVAppDelegate.h; sourceTree = "<group>"; };
+		D1F9C2D6147F998500FE267B /* VVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VVAppDelegate.m; sourceTree = "<group>"; };
+		D1F9C2DD147F9AE500FE267B /* VVGameTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VVGameTable.h; path = GameTable/VVGameTable.h; sourceTree = "<group>"; };
+		D1F9C2DE147F9AE500FE267B /* VVGameTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VVGameTable.m; path = GameTable/VVGameTable.m; sourceTree = "<group>"; };
+		D1F9C2E6147F9ED000FE267B /* VVGameTableFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VVGameTableFinder.h; path = GameTable/VVGameTableFinder.h; sourceTree = "<group>"; };
+		D1F9C2E7147F9ED000FE267B /* VVGameTableFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VVGameTableFinder.m; path = GameTable/VVGameTableFinder.m; sourceTree = "<group>"; };
+		D1F9C2ED147FA62E00FE267B /* VVGameTableFinderNetRequestorDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VVGameTableFinderNetRequestorDelegate.h; path = GameTable/VVGameTableFinderNetRequestorDelegate.h; sourceTree = "<group>"; };
+		D1F9C2F2147FAAE600FE267B /* VVNetRequestor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VVNetRequestor.h; path = Network/VVNetRequestor.h; sourceTree = "<group>"; };
+		D1F9C2F3147FAAE600FE267B /* VVNetRequestor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VVNetRequestor.m; path = Network/VVNetRequestor.m; sourceTree = "<group>"; };
+		D1F9C2F5147FAAFA00FE267B /* VVNetReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VVNetReceiver.h; path = Network/VVNetReceiver.h; sourceTree = "<group>"; };
+		D1F9C2F6147FAAFB00FE267B /* VVNetReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VVNetReceiver.m; path = Network/VVNetReceiver.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1F9C2BF147F998500FE267B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1F9C2C7147F998500FE267B /* UIKit.framework in Frameworks */,
+				D1F9C2C9147F998500FE267B /* Foundation.framework in Frameworks */,
+				D1F9C2CB147F998500FE267B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D13F5FA21481DEFD006414B6 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				D12C667B14876382002DC1E2 /* VVCard.h */,
+				D12C667C14876382002DC1E2 /* VVCard.m */,
+				D1A2DE0D148791960026A552 /* VVCardCombination.h */,
+				D1A2DE0E148791960026A552 /* VVCardCombination.m */,
+			);
+			name = Card;
+			sourceTree = "<group>";
+		};
+		D153F957148221B40091A485 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				D153F965148279260091A485 /* PlayerFinder */,
+				D153F961148250E30091A485 /* VVPlayer.h */,
+				D153F962148250E30091A485 /* VVPlayer.m */,
+				D19185F11488A72200279AFE /* VVPlayerSelf.h */,
+				D19185F21488A72200279AFE /* VVPlayerSelf.m */,
+				D19185F41488A9E800279AFE /* VVPlayerAchiev.h */,
+				D19185F51488A9E800279AFE /* VVPlayerAchiev.m */,
+				D19185FA1488B04000279AFE /* VVPlayerProperty.h */,
+				D19185FB1488B04000279AFE /* VVPlayerProperty.m */,
+				D19185F71488ABA900279AFE /* VVPlayerStat.h */,
+				D19185F81488ABA900279AFE /* VVPlayerStat.m */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
+		D153F964148269FB0091A485 /* GameTableFinder */ = {
+			isa = PBXGroup;
+			children = (
+				D1F9C2ED147FA62E00FE267B /* VVGameTableFinderNetRequestorDelegate.h */,
+				D13F5FA41481E447006414B6 /* VVGameTableFinderNetReceiverDelegate.h */,
+				D1F9C2E6147F9ED000FE267B /* VVGameTableFinder.h */,
+				D1F9C2E7147F9ED000FE267B /* VVGameTableFinder.m */,
+			);
+			name = GameTableFinder;
+			sourceTree = "<group>";
+		};
+		D153F965148279260091A485 /* PlayerFinder */ = {
+			isa = PBXGroup;
+			children = (
+				D19185EC14888EA800279AFE /* VVPlayerFinderNetRequestorDelegate.h */,
+				D19185ED14888EF800279AFE /* VVPlayerFinderNetReceiverDelegate.h */,
+				D19185EE14888F1400279AFE /* VVPlayerFinder.h */,
+				D19185EF14888F1400279AFE /* VVPlayerFinder.m */,
+			);
+			name = PlayerFinder;
+			sourceTree = "<group>";
+		};
+		D19185EA14888E5500279AFE /* CardGame */ = {
+			isa = PBXGroup;
+			children = (
+				D19186091488CA9900279AFE /* VVCardGameNetRequestorDelegate.h */,
+				D191860A1488CBC500279AFE /* VVCardGameNetReceiverDelegate.h */,
+				D19185FD1488B11F00279AFE /* VVCardGame.h */,
+				D19185FE1488B11F00279AFE /* VVCardGame.m */,
+				D19186001488B2B900279AFE /* VVOnTablePlayer.h */,
+				D19186011488B2B900279AFE /* VVOnTablePlayer.m */,
+			);
+			name = CardGame;
+			sourceTree = "<group>";
+		};
+		D1F9C2B7147F998500FE267B = {
+			isa = PBXGroup;
+			children = (
+				D1F9C2CC147F998500FE267B /* Poker */,
+				D1F9C2C5147F998500FE267B /* Frameworks */,
+				D1F9C2C3147F998500FE267B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D1F9C2C3147F998500FE267B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1F9C2C2147F998500FE267B /* Poker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1F9C2C5147F998500FE267B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1F9C2C6147F998500FE267B /* UIKit.framework */,
+				D1F9C2C8147F998500FE267B /* Foundation.framework */,
+				D1F9C2CA147F998500FE267B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1F9C2CC147F998500FE267B /* Poker */ = {
+			isa = PBXGroup;
+			children = (
+				D19185EA14888E5500279AFE /* CardGame */,
+				D153F957148221B40091A485 /* Player */,
+				D13F5FA21481DEFD006414B6 /* Card */,
+				D1F9C2E5147F9C4A00FE267B /* Network */,
+				D1F9C2E0147F9B2900FE267B /* GameTable */,
+				D1F9C2D5147F998500FE267B /* VVAppDelegate.h */,
+				D1F9C2D6147F998500FE267B /* VVAppDelegate.m */,
+				D1F9C2CD147F998500FE267B /* Supporting Files */,
+			);
+			path = Poker;
+			sourceTree = "<group>";
+		};
+		D1F9C2CD147F998500FE267B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1F9C2CE147F998500FE267B /* Poker-Info.plist */,
+				D1F9C2CF147F998500FE267B /* InfoPlist.strings */,
+				D1F9C2D2147F998500FE267B /* main.m */,
+				D1F9C2D4147F998500FE267B /* Poker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1F9C2E0147F9B2900FE267B /* GameTable */ = {
+			isa = PBXGroup;
+			children = (
+				D153F964148269FB0091A485 /* GameTableFinder */,
+				D1F9C2DD147F9AE500FE267B /* VVGameTable.h */,
+				D1F9C2DE147F9AE500FE267B /* VVGameTable.m */,
+			);
+			name = GameTable;
+			sourceTree = "<group>";
+		};
+		D1F9C2E5147F9C4A00FE267B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D1F9C2F5147FAAFA00FE267B /* VVNetReceiver.h */,
+				D1F9C2F6147FAAFB00FE267B /* VVNetReceiver.m */,
+				D1F9C2F2147FAAE600FE267B /* VVNetRequestor.h */,
+				D1F9C2F3147FAAE600FE267B /* VVNetRequestor.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1F9C2C1147F998500FE267B /* Poker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1F9C2DA147F998500FE267B /* Build configuration list for PBXNativeTarget "Poker" */;
+			buildPhases = (
+				D1F9C2BE147F998500FE267B /* Sources */,
+				D1F9C2BF147F998500FE267B /* Frameworks */,
+				D1F9C2C0147F998500FE267B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Poker;
+			productName = Poker;
+			productReference = D1F9C2C2147F998500FE267B /* Poker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1F9C2B9147F998500FE267B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Tsinghua University";
+			};
+			buildConfigurationList = D1F9C2BC147F998500FE267B /* Build configuration list for PBXProject "Poker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D1F9C2B7147F998500FE267B;
+			productRefGroup = D1F9C2C3147F998500FE267B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1F9C2C1147F998500FE267B /* Poker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1F9C2C0147F998500FE267B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1F9C2D1147F998500FE267B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1F9C2BE147F998500FE267B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1F9C2D3147F998500FE267B /* main.m in Sources */,
+				D1F9C2D7147F998500FE267B /* VVAppDelegate.m in Sources */,
+				D1F9C2DF147F9AE500FE267B /* VVGameTable.m in Sources */,
+				D1F9C2E8147F9ED000FE267B /* VVGameTableFinder.m in Sources */,
+				D1F9C2F4147FAAE600FE267B /* VVNetRequestor.m in Sources */,
+				D1F9C2F7147FAAFB00FE267B /* VVNetReceiver.m in Sources */,
+				D153F963148250E30091A485 /* VVPlayer.m in Sources */,
+				D12C667D14876382002DC1E2 /* VVCard.m in Sources */,
+				D1A2DE0F148791960026A552 /* VVCardCombination.m in Sources */,
+				D19185F014888F1400279AFE /* VVPlayerFinder.m in Sources */,
+				D19185F31488A72200279AFE /* VVPlayerSelf.m in Sources */,
+				D19185F61488A9E800279AFE /* VVPlayerAchiev.m in Sources */,
+				D19185F91488ABA900279AFE /* VVPlayerStat.m in Sources */,
+				D19185FC1488B04000279AFE /* VVPlayerProperty.m in Sources */,
+				D19185FF1488B11F00279AFE /* VVCardGame.m in Sources */,
+				D19186021488B2B900279AFE /* VVOnTablePlayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D1F9C2CF147F998500FE267B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1F9C2D0147F998500FE267B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1F9C2D8147F998500FE267B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1F9C2D9147F998500FE267B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1F9C2DB147F998500FE267B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Poker/Poker-Prefix.pch";
+				INFOPLIST_FILE = "Poker/Poker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D1F9C2DC147F998500FE267B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Poker/Poker-Prefix.pch";
+				INFOPLIST_FILE = "Poker/Poker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1F9C2BC147F998500FE267B /* Build configuration list for PBXProject "Poker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1F9C2D8147F998500FE267B /* Debug */,
+				D1F9C2D9147F998500FE267B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1F9C2DA147F998500FE267B /* Build configuration list for PBXNativeTarget "Poker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1F9C2DB147F998500FE267B /* Debug */,
+				D1F9C2DC147F998500FE267B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1F9C2B9147F998500FE267B /* Project object */;
+}
